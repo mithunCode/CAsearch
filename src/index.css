@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  height: 100vh;
+  background-image: linear-gradient(
+    75deg,
+    #feddee 0%,
+    #fcf6fc 31.77%,
+    #c5eaed 64.58%,
+    #fdddfe 100%
+  );
+}
+.partner {
+  background: linear-gradient(91deg, #0076ce 26.63%, #9400d3 65.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-join {
+  background-image: url("./assets/joinbg.png");
+}
+
+.bg-sir {
+  background-image: url("./assets/sir.png");
+  background-repeat: no-repeat;
+}
+.bg-mam {
+  background-image: url("./assets/teacher.png");
+  background-repeat: no-repeat;
+}
